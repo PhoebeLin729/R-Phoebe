@@ -9,7 +9,7 @@ Q1=function(y)
   L2=qnorm(0.975,mean(x),sd(x))
   NUM=sum(L1<x & x<L2)
   p=sum(L1<x & x<L2)/y
-  OUT=list("«H¿à¤U¬É"=L1,"«H¿à¤W¬É"=L2, "­Ó¼Æ‹æ"=NUM,"CP"=p)
+  OUT=list("ä¿¡è³´ä¸‹ç•Œ"=L1,"ä¿¡è³´ä¸Šç•Œ"=L2, "å€‹æ•¸"=NUM,"CP"=p)
   return(OUT)
 }
 Q1(100)
